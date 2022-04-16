@@ -15,11 +15,11 @@ a {
 
 header {
     max-width: 1200px;
-    height: 100vh;
+    height: 50vh;
 }
 
 .container-hero {
-    height: 100vh;
+    height: 50vh;
     background-color: rgb(216, 207, 207);
     display: flex;
     justify-content: space-around;
@@ -41,23 +41,47 @@ header {
     height: 2em;
 }
 
-.container {
-    height: 200px;
-    background-color: rgb(216, 207, 207);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+
 
 .box-middle {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100px;
-    width: 100px;
+    flex: 4 ;
     border: 1px solid red;
-    flex-grow: 2;
     margin: 0 20px
+}
+
+.box-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    flex: 1 ;
+    border: 1px solid red;
+   
+    margin: 0 20px
+}
+
+.box-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    flex: 2 ;
+    border: 1px solid red;
+   
+    margin: 0 20px
+}
+
+.container {
+    height: auto;
+    background-color: rgb(216, 207, 207);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .box {
@@ -65,8 +89,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 100px;
-    width: 100px;
+    width: 160px;
+    margin: 10px;
     border: 1px solid red;
-    flex-grow: 1;
-    margin: 0 20px
 }
