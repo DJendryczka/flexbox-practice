@@ -75,13 +75,22 @@ header {
     margin: 0 20px
 }
 
-.container {
+.container-1 {
     height: auto;
     background-color: rgb(216, 207, 207);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+}
+
+.container-2 {
+    height: 400px;
+    background-color: rgb(216, 207, 207);
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    
 }
 
 .box {
